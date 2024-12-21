@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <input type="number" id="math" placeholder="Math" required>
+        <input type="number" id="english" placeholder="English" required>
+        <button id="submit">Submit</button>
+    </div>
+    <table id="gradesTable" border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Average</td>
+                <td id="mathAvg">0.00</td>
+                <td id="englishAvg">0.00</td>
+                <td id="overallAvg">0.00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
